@@ -1,2 +1,2 @@
 # mdmoran.github.io
-testing portfolio website
+the program for hosting my portfolio website for the time being

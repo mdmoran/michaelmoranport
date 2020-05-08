@@ -95,5 +95,6 @@ html {
              text-align: center;
 }
 
-td { min-width: 500px; 
+td { min-width: 500px;
+     max-width: 1000px;
 }

@@ -6,7 +6,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1000px;
     padding: 2em 2em 4em;
     min-height: 900px; 
 }
@@ -82,8 +82,21 @@ img {
 }
 
 html {
-    background: black;
-    -webkit-font-smoothing: antialiased;
+    background: linear-gradient(90deg, #3D9092, #4CAF50, #C6A52C, #98C035);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .float { float: right; 

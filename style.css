@@ -1,12 +1,12 @@
 body {
-    background: #61656b;
+    background: #FF603E;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 850px;
     padding: 2em 2em 4em;
     min-height: 900px; 
 }
@@ -24,7 +24,7 @@ h2 {
 }
 
 a {
-    color: #4CAF50;
+    color: #581845;
 }
 
 b, strong {
@@ -58,31 +58,33 @@ img {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #FF4C26;
+  text-align: center;
+  align-content: center;
   
 }
 
 .topnav a {
-  float: left;
+  float: center;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 5px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #FD2D00;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #FD2D00;
   color: white;
 }
 
 html {
-    background: linear-gradient(90deg, #3D9092, #4CAF50, #C6A52C, #98C035);
+    background: linear-gradient(90deg, #FF5733, #C70039, #900C3F, #581845);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
@@ -104,7 +106,7 @@ html {
 }
 
 .pageTitle { font-size: 35px;
-             background-color:#333;
+             background-color:#FF603E;
              text-align: center;
 }
 

@@ -124,3 +124,26 @@ td {
   .projectTitle {
       font-weight: bold;
   }
+
+  table {
+      display: none;
+  }
+
+  .mobile {
+      display: block;
+  }
+
+  ul.mobile {
+      list-style: none;
+  }
+
+  @media only screen and (min-width: 768px) {
+    table {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+}
